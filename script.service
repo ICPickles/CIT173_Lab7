@@ -1,0 +1,8 @@
+Unit]
+Description= SCRIPT restart system after 5 minutes
+
+[Service]
+Type=simple
+ExecStart=/bin/shutdown -r +5
+
+
